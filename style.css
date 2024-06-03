@@ -1,0 +1,80 @@
+.headerText{
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+}
+.linksMenu:hover{
+    text-decoration: underline;
+}
+.headerText{
+    margin-left: 6px;
+}
+.carousel {
+    z-index: 1;
+}
+
+.menu{
+    margin-left: auto;
+}
+#menuBar{
+    padding: 0px;
+    margin: 0px;
+}
+#menuContainer{
+    padding: 8px;
+}
+#navbarToggle{
+    background-color: white;
+}
+.row{
+    justify-content: center;
+}
+.card-title{
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+
+.imagenFondo{
+    background-image: url("./img/imagen1.jpg");
+    /* background-position-x: center; */
+    height: 25vh;
+    background-size: cover;
+    /* width: 100%; */
+}
+
+.containerSecundario{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerMain{
+    height: 40vh;
+}
+.rowContacto{
+    width: 50%;
+    margin: 20px;
+}
+.btn{
+    margin: 0 3px;
+}
+.footer{
+    background-color: #0b5ed7;
+}
+
+@media screen and (max-width: 770px){
+    .rowContacto{
+    width: 90%;
+    }
+    .btn{
+        margin: 3px 0;
+    }
+}
+@media screen and (max-width: 500px){
+    .rowContacto{
+        width: 100%;
+    }
+    .contactoContainer{
+        padding: 0px;
+    }
+}
